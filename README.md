@@ -1,24 +1,13 @@
-# frequent-words-electron
-
+# Frequent words - Verify the most common words used in your favorite series. 
 ## Project setup
 ```
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+## To run locally
 ```
-yarn serve
-```
-
-### Compiles and minifies for production
-```
-yarn build
+yarn electron:serve
 ```
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This app will load your subtitle files and identify how frequently the words were used.
+It is expected to receive several <b>.str</b> files as input.
